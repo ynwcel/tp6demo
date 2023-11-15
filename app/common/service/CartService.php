@@ -4,12 +4,13 @@ declare (strict_types=1);
 namespace app\common\service;
 
 /**
- * Notes：顾客信息服务类
+ * Notes：购物车服务类
  * {2023/11/10}
- * Class UserService
+ * Class CartService
  * @package app\common\service
  */
-class UserService extends BaseService
+
+class CartService extends BaseService
 {
 
 

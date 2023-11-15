@@ -4,12 +4,12 @@ declare (strict_types=1);
 namespace app\common\service;
 
 /**
- * Notes：顾客信息服务类
- * {2023/11/10}
- * Class UserService
+ * Notes：定时任务服务类
+ * {2023/11/13}
+ * Class CronService
  * @package app\common\service
  */
-class UserService extends BaseService
+class CronService extends BaseService
 {
 
 

@@ -26,7 +26,10 @@
         "predis/predis": "^2.0",
         "topthink/think-multi-app": "^1.0",
         "firebase/php-jwt": "^6.2",
-        "myclabs/php-enum": "^1.8"
+        "myclabs/php-enum": "^1.8",
+        "ext-openssl": "*",
+        "ext-curl": "*",
+      "ext-json": "*"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",

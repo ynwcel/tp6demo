@@ -4,12 +4,12 @@ declare (strict_types=1);
 namespace app\common\service;
 
 /**
- * Notes：顾客信息服务类
+ * Notes：数据分析服务
  * {2023/11/10}
- * Class UserService
+ * Class AnalysisService
  * @package app\common\service
  */
-class UserService extends BaseService
+class AnalysisService extends BaseService
 {
 
 
