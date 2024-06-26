@@ -6,12 +6,14 @@ namespace app;
 use think\App;
 use think\exception\ValidateException;
 use think\Validate;
+use tpext\traits\Base as BaseTraits;
 
 /**
  * 控制器基础类
  */
 abstract class BaseController
 {
+    use BaseTraits;
     /**
      * Request实例
      * @var \think\Request
